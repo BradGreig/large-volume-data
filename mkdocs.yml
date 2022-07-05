@@ -1,0 +1,14 @@
+site_name: Large Volume Data - Greig et al. (2022)
+theme:
+  name: material
+repo_url: https://bradgreig.github.io/large-volume-data/
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
