@@ -2,6 +2,7 @@ site_name: Large Volume Data - Greig et al. (2022)
 theme:
   name: material
 repo_url: https://bradgreig.github.io/large-volume-data/
+plugins: []
 
 markdown_extensions:
   - attr_list
