@@ -41,4 +41,12 @@ This will open up a directory list to access the individual data sub-sets:
 
 #### Downloading directly from the command line
 
-It is also possible to use the Mediaflux Data Mover tool via the command line. This is useful when you don't have easy access to a windowing environment (e.g. when working on an HPC system or remote VM). [Instructions can be found here](https://wiki-rcs.unimelb.edu.au/display/RCS/Data+Mover+Command+Line+Interface).
+It is also possible to use the Mediaflux Data Mover tool via the command line. This is useful when you don't have easy access to a windowing environment (e.g. when working on an HPC system or remote VM). Currently, this method restricts you to downloading the entire dataset, however, this will hopefully be fixed soon.
+
+On Linux/Unix:
+
+1. Use `wget` or `curl` to download the Data Mover client from `https://mediaflux.researchsoftware.unimelb.edu.au/mflux/data/mover/installers/linux/mediaflux-data-mover.zip`.
+2. Unzip the file and set the command line client binary to be executable:
+    `chmod u+x mediaflux-data-mover/bin/mediaflux-data-mover-cli`
+3. Download the data:
+    `mediaflux-data-mover/bin/mediaflux-data-mover-cli -download 2vilhfdlrb4whllhzkczxmaid273qez0eyj3c76jndkczuq17ya3iso6uuy8488gqiplvrfyyl1sqqzw5lbk5yd28lel1e22g60w49dklvkpyjtfqztaxha2wbvseswmhh1z5mrz6zkkr331m1yvjg3hseknbh6qs97iosezyqdimozhsgt25261aa4ts84jajph9jdez1axqvjw0tf53pvzhj2m5iepwnaihip`
