@@ -7,6 +7,7 @@ On this page you can find the following:
 - [Simulation Details](#simulation-details)
 - [Data Format](#data-format)
 - [Download Instructions](#download-instructions)
+- [Contact Information](#contact-information)
 
 ## Simulation Details
 
@@ -41,7 +42,7 @@ This will open up a directory list to access the individual data sub-sets:
 
 #### Downloading directly from the command line
 
-It is also possible to use the Mediaflux Data Mover tool via the command line. This is useful when you don't have easy access to a windowing environment (e.g. when working on an HPC system or remote VM). Currently, this method restricts you to downloading the entire dataset, however, this will hopefully be fixed soon.
+It is also possible to use the Mediaflux Data Mover tool via the command line. This is useful when you don't have easy access to a windowing environment (e.g. when working on a HPC system or remote VM). Currently, this method restricts you to downloading the entire dataset, however, this will hopefully be fixed soon.
 
 On Linux/Unix:
 
@@ -50,3 +51,7 @@ On Linux/Unix:
     `chmod u+x mediaflux-data-mover/bin/mediaflux-data-mover-cli`
 3. Download the data:
     `mediaflux-data-mover/bin/mediaflux-data-mover-cli -download 2vilhfdlrb4whllhzkczxmaid273qez0eyj3c76jndkczuq17ya3iso6uuy8488gqiplvrfyyl1sqqzw5lbk5yd28lel1e22g60w49dklvkpyjtfqztaxha2wbvseswmhh1z5mrz6zkkr331m1yvjg3hseknbh6qs97iosezyqdimozhsgt25261aa4ts84jajph9jdez1axqvjw0tf53pvzhj2m5iepwnaihip`
+
+## Contact Information
+
+For any questions or technical assistance please contact either [Brad Greig](mailto:brad.s.greig@gmail.com) or [Simon Mutch](mailto:simon.mutch@unimelb.edu.au).
