@@ -39,5 +39,6 @@ The data is stored using [Mediaflux](https://www.arcitecta.com/mediaflux/feature
 This will open up a directory list to access the individual data sub-sets:
 ![data-direc](MFdirec.png)
 
-!!! todo
-    Add instructions for downloading from the command line.
+#### Downloading directly from the command line
+
+It is also possible to use the Mediaflux Data Mover tool via the command line. This is useful when you don't have easy access to a windowing environment (e.g. when working on an HPC system or remote VM). [Instructions can be found here](https://wiki-rcs.unimelb.edu.au/display/RCS/Data+Mover+Command+Line+Interface).
