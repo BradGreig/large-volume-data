@@ -8,7 +8,7 @@ On this page you can find the following:
 - [Data Format](#data-format)
 - [Download Instructions](#download-instructions)
 
-# Simulation Details
+## Simulation Details
 
 These are light-cone simulations (line-of-sight signal varies with redshift) spanning different redshift (frequencies). The transverse scale of these simulations is 7.5 Gpc on a side and contain 6400 voxels.
 
@@ -21,13 +21,13 @@ The simulations assume: (1) linear structure formation, (2) saturated IGM spin t
 
 ** NOTE: ** Other data products can be added on reasonable request.
 
-# Data Format
+## Data Format
 
 The various data products are available as `tar.gz` files. Once unzipped, the data is stored as individual 2D slices along the line-of-sight. These are stored as binary files, in C major format (x + DIM * y).
 
 The filenames of these individual 2D slices contain all relevant meta information (redshift and corresponding slice number along the line-of-sight).
 
-# Download Instructions
+## Download Instructions
 
 The data is stored using [Mediaflux](https://www.arcitecta.com/mediaflux/features/) and available through the Mediaflux Data Mover client. Clicking on the download link will first prompt you to download the Mediaflux Data Mover client before automatically opening it.
 
